@@ -1,11 +1,11 @@
 {
-  "name": "redux-async-connect",
-  "version": "1.0.0",
+  "name": "redux-async-connect-makenneth-fork",
+  "version": "1.0.1",
   "description": "It allows you to request async data, store them in redux state and connect them to your react component.",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/makenneth/redux-async-connect.git"
+    "url": "git+https://git@github.com/makenneth/redux-async-connect"
   },
   "scripts": {
     "build": "babel ./modules -d lib --ignore '__tests__'",
@@ -64,5 +64,8 @@
     "webpack": "^1.12.6",
     "webpack-dev-middleware": "^1.2.0",
     "eslint-config-airbnb": "^3.1.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2"
   }
 }
